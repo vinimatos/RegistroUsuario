@@ -1,0 +1,8 @@
+{
+  "resolution": "main",
+  "tree": {
+    "src": "D:\\dev\\myapp\\node_modules\\firebase\\firebase.d.ts",
+    "raw": "file:node_modules/firebase/firebase.d.ts",
+    "typings": "D:\\dev\\myapp\\node_modules\\firebase\\firebase.d.ts"
+  }
+}
