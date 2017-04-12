@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Http } from '@angular/http';
 import 'rxjs/add/operator/map';
-import {Usuario} from "../../../myAppTest/src/model/Usuario";
+import {Usuario} from "../../../myAppTest2/src/model/Usuario";
 import firebase from 'firebase';
 
 @Injectable()
@@ -14,8 +14,8 @@ export class LoginProvider {
 
   cadastrar(usuario: Usuario){
     firebase.auth().createUserWithEmailAndPassword(usuario.email, usuario.senha)
-     .then(result => console.log(result))
-      .catch(error => console.log(error));
+    .then(result => console.log(result))
+     .catch(error => console.log(error));
   }
 
 }
